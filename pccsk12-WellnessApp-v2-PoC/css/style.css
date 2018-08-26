@@ -1,0 +1,84 @@
+body.tiles {
+    font-size: 0 !important;
+}
+
+body{
+	height: 100vh !important;
+}
+
+   
+.tile {
+    height: 24.99vh !important;
+	width: 100vw !important;
+    border-radius: 0 !important; 
+    margin: 0px !important; 
+}
+
+.innerTiles {
+    /*width: 100vw !important;*/
+    border-radius: 0 !important; 
+    margin: 0px !important; 
+}
+
+.innerTilesplus {
+	height: 20vh !important;
+	width: 100vw !important;
+    border-radius: 0 !important; 
+    margin: 0px !important; 
+}
+
+.drpdwnsizes {
+	height: 10vh  !important;
+	border-radius: 0 !important;
+	margin: 0px !important;
+}
+
+.drpdwnsizesplus {
+	border-radius: 0 !important;
+	margin: 0px !important;
+}
+
+.scroller{
+	margin: 0px !important;
+}
+
+
+body.drpdwnsizes {
+	font-size: 0 !important;
+}
+
+.stclr{
+	color: green;
+}
+
+.stclr2{
+	color: black;
+}
+
+.bg{
+	background-color: white !important;
+}
+
+selector {
+      word-wrap: break-word;      /* IE 5.5-7 */
+      white-space: -moz-pre-wrap; /* Firefox 1.0-2.0 */
+      white-space: pre-wrap;      /* current browsers */
+}
+
+.animate-bottom {
+  position: relative !important;
+  -webkit-animation-name: animatebottom !important;
+  -webkit-animation-duration: 1s !important;
+  animation-name: animatebottom !important;
+  animation-duration: 1s !important
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 }  
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
