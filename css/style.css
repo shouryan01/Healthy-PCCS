@@ -10,14 +10,16 @@ body{
 .tile {
     height: 24.99vh !important;
 	width: 100vw !important;
-    border-radius: 0 !important; 
+    border-radius: 30 !important; 
     margin: 0px !important; 
+    align-content: center;
 }
 
 .innerTiles {
-    /*width: 100vw !important;*/
-    border-radius: 0 !important; 
-    margin: 0px !important; 
+    width: 95% !important;
+    border-radius: 30 !important; 
+     margin: 1.2% !important; 
+    
 }
 
 .innerTilesplus {
@@ -48,11 +50,15 @@ body.drpdwnsizes {
 }
 
 .stclr{
-	color: green;
+	color: rgb(4, 169, 4);
 }
 
 .stclr2{
-	color: black;
+	color: rgb(0, 0, 0);
+}
+
+.stclr3{
+	color: rgb(0, 102, 255);
 }
 
 .bg{
