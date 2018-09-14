@@ -60,6 +60,9 @@ body.drpdwnsizes {
 .stclr3{
 	color: rgb(0, 102, 255);
 }
+.stclr4{
+    color: white;
+}
 
 .bg{
 	background-color: white !important;
@@ -88,3 +91,4 @@ selector {
   from{ bottom:-100px; opacity:0 } 
   to{ bottom:0; opacity:1 }
 }
+
